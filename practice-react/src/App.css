@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgb(178, 210, 178),
+    rgba(66, 62, 41, 0.526),
+    rgb(153, 130, 133)
+  );
+}
+.title {
+  font-size: 75px;
+  margin: 20px auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-add-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  height: 40px;
+  width: 400px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+.add-btn {
+  height: 40px;
+  width: 75px;
+  border: none;
+  border-radius: 5px;
+  background-color: #898f9c;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+ul > li {
+  margin-left: -40px;
+  height: 40px;
+  list-style: none;
+  width: 480px;
+  padding-left: 10px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+.remove-btn {
+  float: right;
+  margin-right: 30px;
+  border: none;
+  background-color: rgb(240, 120, 76);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
